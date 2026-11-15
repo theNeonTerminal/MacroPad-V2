@@ -69,8 +69,47 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "hole_clearance|104550000|40755000|36501988-ed26-4427-a10e-fb3034c0dd16|b934f36a-80d1-4cd2-8a3b-848ff267102e",
+          ""
+        ],
+        [
+          "hole_clearance|104550000|40755000|f04e6ad9-d43f-40c3-9de3-1a3efcd06e26|b934f36a-80d1-4cd2-8a3b-848ff267102e",
+          ""
+        ],
+        [
+          "hole_clearance|176745000|80630000|5e954d76-f0ec-4b70-b63f-166c20206f3b|00f864fc-7dba-4445-b3a8-663e1ec8b380",
+          ""
+        ],
+        [
+          "hole_clearance|176745000|80630000|a54a9059-7c20-4580-8026-f1588741c15a|00f864fc-7dba-4445-b3a8-663e1ec8b380",
+          ""
+        ],
+        [
+          "hole_clearance|176745000|86730000|53b14d8f-6942-4db7-8fa0-163f48a9fa5b|48d7c3d8-cf66-46a9-8cf3-ec8db63bdf51",
+          ""
+        ],
+        [
+          "hole_clearance|176745000|86730000|5c17f805-5fde-416f-9d8c-e3b6840968ed|48d7c3d8-cf66-46a9-8cf3-ec8db63bdf51",
+          ""
+        ],
+        [
+          "hole_clearance|98450000|40755000|0d374083-6b21-4d78-b3af-554eec5418b5|5c9ec533-c97d-47fa-9aba-5b394449bf23",
+          ""
+        ],
+        [
+          "hole_clearance|98450000|40755000|1975c87a-f66c-4f6b-81ff-c17c461f11fe|5c9ec533-c97d-47fa-9aba-5b394449bf23",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -206,7 +245,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +276,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -665,7 +717,7 @@
         "uuid": "61b07404-86c0-4101-9662-4d1e99ca1860"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-20,C1-9,D1-3,J1-2,L1,Q1-2,R1-11,SW1-2,U1-2,X1",
+    "used_designators": "#FLG1,#PWR1-93,C1-9,D1-32,J1-3,L1,Q1-3,R1-25,SW1-12,U1-4,X1",
     "variants": []
   },
   "sheets": [
