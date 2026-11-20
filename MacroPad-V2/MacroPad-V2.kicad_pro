@@ -580,9 +580,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "MacroPad-V2 Gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MacroPad-V2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
